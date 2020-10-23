@@ -1,7 +1,7 @@
-From python:3.8.3-buster
+From python:3.8.6-buster
 WORKDIR /app
-COPY requirement.txt.
-RUN pip install -f requirement.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 COPY /app .
 

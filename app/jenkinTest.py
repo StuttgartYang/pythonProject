@@ -1,7 +1,7 @@
-from flask import Flask
-
-app = Flask(_anme_)
-@app.route('/')
+# from flask import Flask
+#
+# app = Flask(__name__)
+# @app.route('/')
 
 def merge(arr, l, m, r):
     n1 = m - l + 1
@@ -74,4 +74,4 @@ print("\n\nSorted array is")
 for i in range(n):
     print("%d" % arr[i]),
 
-app.run(port = 5000)
+#app.run(host='0.0.0.0', port=5000)
